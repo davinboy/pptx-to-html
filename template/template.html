@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% title %}</title>
+    <link rel="stylesheet" href={% csspath %}>
+    <script type="text/javascript" src={% jqpath %}></script>
+    <script type="text/javascript" src={% rwdpath %}></script>
+</head>
+<body>
+    <div class="container">
+        <img src={% imgpath %} width={% imgwidth %} height={% imgheight %} usemap="#image-map">
+        <map name="image-map">
+            {% maparea %}
+        </map>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+</body>
+</html>

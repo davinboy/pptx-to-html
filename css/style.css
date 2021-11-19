@@ -1,0 +1,31 @@
+charset "UTF-8";
+::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
+html,body {
+    margin: 0px;
+    height: 100%;
+    background-color:#10100E;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+img{
+    height: auto;
+    max-height:100%;
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+}
+
+video{
+    height: auto;
+    max-height:100%;
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+}
