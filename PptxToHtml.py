@@ -33,6 +33,7 @@ DEFAULT_WIDTH = 1080
 
 # find pptx file
 def getPptName():
+  name = ''
   for fl in glob.glob('./*.pptx'):
     name = os.path.split(fl)[1]
     print('Target : ' + name)
@@ -69,7 +70,12 @@ def convertMain(args):
   print('#### Start program! ####')
 
   # Get ppt file name
+  ppt_name = ''
   ppt_name = getPptName()
+  if ppt_name == '':
+    print("not found .pptx file")
+    exit()
+
   print("image width : " + str(x) + "px")
   print("image height : " + str(y) + "px")
 
