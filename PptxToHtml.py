@@ -190,7 +190,7 @@ def getArguments():
   parser.add_argument('-W', '--width',  required=False, default='default' ,help='クリッカブルマップ対象の画像の幅(default:image内のpngサイズ)')
   parser.add_argument('-H', '--height',   required=False, default='default', help='クリッカブルマップ対象の画像の高さ(default:image内のpngサイズ)')
   parser.add_argument('-J', '--jqpath',  required=False, default='https://code.jquery.com/jquery-3.5.1.js', help='jQueryのパス指定(default:CDN Path)')
-  parser.add_argument('-Q', '--rwdpath', required=False, default='js/jquery.rwdImageMaps.js', help='jQuery RWD Image Maps のパス指定(default:js/jquery.rwdImageMaps.js)')
+  parser.add_argument('-R', '--rwdpath', required=False, default='js/jquery.rwdImageMaps.js', help='jQuery RWD Image Maps のパス指定(default:js/jquery.rwdImageMaps.js)')
   parser.add_argument('-C', '--csspath', required=False, default='css/style.css', help='CSS のパス指定(default:css/style.css)')
   return parser.parse_args()
 
