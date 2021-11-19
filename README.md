@@ -9,9 +9,9 @@ PowerPointから簡単なクリッカブルマップ(イメージマップ)のht
 Python 3.9.6 にて動作確認済みです。
 
 ### 必要なライブラリ
-PowerPointライブラリ
+#### PowerPointライブラリ
     pip install python-pptx
-画像処理ライブラリ
+#### 画像処理ライブラリ
     pip install pillow
 
 ### PowerPointの準備
@@ -21,12 +21,13 @@ PowerPointライブラリ
 
 ### クリッカブルマップ用画像の準備
 作成したPowerPointを以下の手順にて.png形式でエクスポートします。  
-*「ファイル」>「名前を付けて保存」>「PNG」ですべてのスライドを保存*  
+__「ファイル」>「名前を付けて保存」>「PNG」ですべてのスライドを保存__    
 pngをすべてimageフォルダ直下に格納します。  
 
 ### PptxToHtmlを実行
-PowerPointと画像の準備が完了したら、以下コマンドで実行します。
     py PptxToHtml.py
+
+PowerPointと画像の準備が完了したら、上記コマンドで実行します。  
 プロジェクト直下に.htmlファイルが生成されます。
 
 ### 実行オプション
