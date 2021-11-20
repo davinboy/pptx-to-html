@@ -2,7 +2,6 @@
 import sys, io, os
 import pprint
 import codecs
-import pptx
 from pptx import Presentation
 from pptx.enum.action import PP_ACTION
 from pptx.enum.shapes import MSO_SHAPE_TYPE
