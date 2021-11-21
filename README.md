@@ -34,7 +34,7 @@ PowerPointと画像の準備が完了したら、上記コマンドで実行し�
     -W --width   クリッカブルマップ対象の画像の幅   (default:image内のpngサイズ)
     -H --height  クリッカブルマップ対象の画像の高さ (default:image内のpngサイズ)
     -J --jqpath  jQueryのパス指定                  (default:CDN Path)
-    -R --rwdpath jQuery RWD Image Maps のパス指定  (default:js/jquery.rwdImageMaps.js
+    -R --rwdpath jQuery RWD Image Maps のパス指定  (default:js/jquery.rwdImageMaps.js)
     -C --csspath CSS のパス指定                    (default:css/style.css)
 
 ## テンプレートHTML/CSSのカスタマイズ
